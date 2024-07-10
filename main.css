@@ -1,0 +1,45 @@
+#wrapper {
+  display: flex;
+  width: 400px;
+  flex-direction: row;
+}
+
+#table {
+  width: 100%;
+  margin: 10px;
+  padding: 0;
+}
+
+.number-key {
+  background-color: #d8d9db;
+  width: 100%;
+  margin: 0;
+}
+
+.number-key:hover {
+  background-color: #ebebeb;
+}
+
+.number-key:active {
+  background-color: #bbbcbe
+}
+
+.function-key {
+  background-color: #df974c;
+  width: 100%;
+  margin: 0;
+}
+
+.function-key:hover {
+  background-color: #dfb07e;
+}
+
+.function-key:active {
+  background-color: #dd8d37;
+}
+
+#result {
+  background-color: black;
+  text-align: right;
+  color: #FFFFFF;
+}
